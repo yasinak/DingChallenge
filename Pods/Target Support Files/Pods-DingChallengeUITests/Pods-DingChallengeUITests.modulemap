@@ -1,0 +1,6 @@
+framework module Pods_DingChallengeUITests {
+  umbrella header "Pods-DingChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

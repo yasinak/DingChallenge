@@ -2,7 +2,7 @@
 //  DingChallengeUITests.swift
 //  DingChallengeUITests
 //
-//  Created by Yasin Akinci on 02/12/2018.
+//  Created by Yasin Akinci on 04/12/2018.
 //  Copyright © 2018 Yasin Akinci. All rights reserved.
 //
 
