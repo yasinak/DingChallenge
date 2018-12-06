@@ -18,8 +18,8 @@ class HomeTableViewController: UITableViewController {
     @IBOutlet weak var popularityLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
-    var results = [Results]()
-    var isWaitingData = false
+    private var results = [Results]()
+    private var isWaitingData = false
     private var moviePresenter = MoviesPresenter()
     
     

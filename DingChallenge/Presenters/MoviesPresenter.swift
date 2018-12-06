@@ -25,7 +25,7 @@ class MoviesPresenter{
     }
     
     static var imageURL = "http://image.tmdb.org/t/p/w185"
-    let moviesServices = MoviesServices()
+    private let moviesServices = MoviesServices()
     
     //MARK: - Init
     init() {

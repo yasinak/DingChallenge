@@ -27,8 +27,12 @@ class DetailsViewController: UIViewController {
         if let detailResult = result{
             
             titleLabel.text = detailResult.title
-            genreLabel.text = String(describing: detailResult.genre_ids)
-            popularityLabel.text =  String(describing: detailResult.popularity)
+            if let genre = detailResult.genre_ids{
+                genreLabel.text = String(describing: genre)
+            }
+            if let popularity = detailResult.popularity{
+                popularityLabel.text =  String(describing: popularity)
+            }
             releaseDateLabel.text = detailResult.release_date
             overviewLabel.text = detailResult.overview
             
